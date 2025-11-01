@@ -47,6 +47,7 @@ input, select, textarea {
   --secondary: #D9D9D9;
   --secondary-bg: gray;
   --text-color: #A26B6B;
+  transition: 0.3s;
 }
 
 html.dark{

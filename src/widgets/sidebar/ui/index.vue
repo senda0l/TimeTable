@@ -21,7 +21,7 @@ const toggleSize = () => {
       <div class="nav">
         <span class="back" @click="toggleSize()">
           <h1 v-if="size === 'short'">></h1>
-          <h1 v-else><</h1>
+          <h1 v-else>s</h1>
           </span>
         <RouterLink to="/" class="nav_logo nav_home">
           <svg
