@@ -16,6 +16,7 @@ const getCurrentDayName = () => {
 };
 
 const dayOfWeekKey = getCurrentDayName();
+// const dayOfWeekKey = 'tuesday';
 
 
 
