@@ -16,7 +16,7 @@ const getCurrentDayName = () => {
 };
 
 const dayOfWeekKey = getCurrentDayName();
-// const dayOfWeekKey = 'monday';
+
 
 
 
@@ -69,10 +69,18 @@ const getLesson = (room, time) => {
       </tbody>
     </table>
     
+    <h1 class="weekend_title" v-if="dayOfWeekKey==='saturday'||dayOfWeekKey==='sunday'">Today there are no lessons</h1>
   </div>
 </template>
 
 <style scoped>
+
+.weekend_title{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  
+}
 .schedule-table {
   text-align: center;
   color: white;
